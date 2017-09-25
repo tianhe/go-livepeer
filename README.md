@@ -47,7 +47,6 @@ Livepeer requires a local Ethereum node. To set it up, follow the [Ethereum Inst
 
 ### Livepeer private Ethereum testnet
 Livepeer is currently only running on a private Ethereum testnet.
-Livepeer is currently only running on a private Ethereum testnet.
 
 1. Create a geth data directory. For example: `mkdir ~/.lpGeth`. 
   * We recommend creating a new directory even if you already have one, so the Livepeer testing data will be stored separately.
@@ -57,7 +56,7 @@ Livepeer is currently only running on a private Ethereum testnet.
   * Depending on your geth version, you may see a complaint about 'genesis.number' related to your .json file. To fix the issue, delete the "number" field in the json.
 4. Start `geth` with the network id `858585` and the Livepeer testnet bootnode. For example: `geth --datadir ~/.lpGeth --networkid 858585 --bootnodes "enode://080ebca2373d15762c29ca8d85ddc848f10a7ffc745f7110cacba4694728325d645292cb512d7168323bd0af1650fca825ff54c8dba20aec8878498fae3ff3c6@18.221.67.74:30303"`
 
-Now the geth node should be running, and it should soon start downloading blocks.
+  * Now the geth node should be running, and it should soon start downloading blocks.
 
 ## Running Livepeer
 
